@@ -1,0 +1,44 @@
+section.logo {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: -webkit-center;
+}
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+}
+
+section.open {
+    border-top: 5px solid #00d2a9;
+    border-bottom: 5px solid #00d2a9;
+    padding: 10px;
+    text-align: -webkit-center;
+}
+
+.open img {
+    margin: 0 auto;
+    display: block;
+    max-width: 380px;
+}
+
+section.blurb {
+    padding: 10px;
+    text-align: -webkit-center;
+}
+
+.blurb img {
+    margin: 0 auto;
+    display: block;
+    max-width: 490px;
+}
+
+.ontraform {
+    border: 3px solid rgb(0, 210, 169);
+}
+
+@media screen and (max-width: 480px) {
+    .open img, .blurb img {
+        max-width: 100%;
+    }
+}

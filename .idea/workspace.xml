@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d34decd-d609-46e3-919b-1e0d29c0a312" name="Default" comment="" />
+    <list default="true" id="6d34decd-d609-46e3-919b-1e0d29c0a312" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/pilotpress/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/pilotpress/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php" afterPath="$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php" />
+    </list>
     <ignored path="notaboutsize.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,7 +29,7 @@
       <file leaf-file-name="ping.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/pilotpress/ping.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="4.923077">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -45,63 +49,64 @@
       <file leaf-file-name="pilotpress.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11888112">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
               <folding>
-                <marker date="1456820163128" expanded="true" signature="4443:4521" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="23236:23274" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="23620:23658" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="24566:24604" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="43830:43947" placeholder="UPDATE ${{$w..." />
-                <marker date="1456820163128" expanded="true" signature="46381:46413" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="49517:49549" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="49874:49890" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="50556:50572" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="50938:50954" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="51335:51367" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="57337:57350" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="66925:67009" placeholder="DELETE FROM ..." />
-                <marker date="1456820163128" expanded="true" signature="76702:76843" placeholder="SELECT ID, p..${$wpdb-&gt;posts}..." />
-                <marker date="1456820163128" expanded="true" signature="80942:81036" placeholder="SELECT ID FR..${$wpdb-&gt;posts}..." />
-                <marker date="1456820163128" expanded="true" signature="81473:81586" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="81763:81877" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="82902:82980" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="84499:84604" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="85233:85332" placeholder="DELETE FROM ..." />
-                <marker date="1456820163128" expanded="true" signature="85354:85444" placeholder="UPDATE ${$wp..." />
-                <marker date="1456820163128" expanded="true" signature="85599:85725" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="95458:99881" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="95512:96039" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="96118:96199" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="96268:96393" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="96466:96578" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="96647:96738" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="96852:97008" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="97077:97109" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="97184:97308" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="97383:97538" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="97613:97737" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="97812:97967" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="98036:98128" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="98203:98297" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="98372:98415" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="98479:98719" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="98789:99052" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="99116:99328" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="99375:99854" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="99453:99494" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="99571:99612" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="99689:99730" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="99807:99848" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="101870:101888" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="101990:102760" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="102092:102743" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="104244:104356" placeholder="SELECT meta_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="104642:104756" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="105166:105279" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-                <marker date="1456820163128" expanded="true" signature="112500:112802" placeholder="..." />
-                <marker date="1456820163128" expanded="true" signature="112542:112787" placeholder="{...}" />
-                <marker date="1456820163128" expanded="true" signature="112633:112777" placeholder="{...}" />
+                <element signature="e#7#264#0#PHP" expanded="true" />
+                <marker date="1456824540320" expanded="true" signature="4443:4521" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="23236:23274" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="23620:23658" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="24566:24604" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="43830:43947" placeholder="UPDATE ${{$w..." />
+                <marker date="1456824540320" expanded="true" signature="46381:46413" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="49517:49549" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="49874:49890" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="50556:50572" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="50938:50954" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="51335:51367" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="57337:57350" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="66913:66997" placeholder="DELETE FROM ..." />
+                <marker date="1456824540320" expanded="true" signature="76690:76831" placeholder="SELECT ID, p..${$wpdb-&gt;posts}..." />
+                <marker date="1456824540320" expanded="true" signature="80930:81024" placeholder="SELECT ID FR..${$wpdb-&gt;posts}..." />
+                <marker date="1456824540320" expanded="true" signature="81461:81574" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="81751:81865" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="82890:82968" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="84487:84592" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="85221:85320" placeholder="DELETE FROM ..." />
+                <marker date="1456824540320" expanded="true" signature="85342:85432" placeholder="UPDATE ${$wp..." />
+                <marker date="1456824540320" expanded="true" signature="85587:85713" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="95446:99869" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="95500:96027" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="96106:96187" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="96256:96381" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="96454:96566" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="96635:96726" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="96840:96996" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="97065:97097" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="97172:97296" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="97371:97526" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="97601:97725" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="97800:97955" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="98024:98116" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="98191:98285" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="98360:98403" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="98467:98707" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="98777:99040" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="99104:99316" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="99363:99842" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="99441:99482" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="99559:99600" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="99677:99718" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="99795:99836" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="101858:101876" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="101978:102748" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="102080:102731" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="104232:104344" placeholder="SELECT meta_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="104630:104744" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="105154:105267" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+                <marker date="1456824540320" expanded="true" signature="112485:112787" placeholder="..." />
+                <marker date="1456824540320" expanded="true" signature="112527:112772" placeholder="{...}" />
+                <marker date="1456824540320" expanded="true" signature="112618:112762" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,6 +116,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -183,11 +195,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="wp-theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pilotpress" />
+              <option name="myItemId" value="wendymak" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notaboutsize.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notaboutsize.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,6 +229,32 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -211,13 +267,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="5" width="1308" height="758" extended-state="1" />
-    <editor active="true" />
+    <frame x="58" y="5" width="1308" height="758" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25400642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25400642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -226,7 +283,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -237,18 +293,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php</url>
+          <line>910</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php</url>
+          <line>1719</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/pilotpress/ping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/pilotpress/login-button.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.9230769">
@@ -257,65 +318,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/pilotpress/ping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.923077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/pilotpress/pilotpress.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11888112">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
           <folding>
-            <marker date="1456820163128" expanded="true" signature="4443:4521" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="23236:23274" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="23620:23658" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="24566:24604" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="43830:43947" placeholder="UPDATE ${{$w..." />
-            <marker date="1456820163128" expanded="true" signature="46381:46413" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="49517:49549" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="49874:49890" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="50556:50572" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="50938:50954" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="51335:51367" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="57337:57350" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="66925:67009" placeholder="DELETE FROM ..." />
-            <marker date="1456820163128" expanded="true" signature="76702:76843" placeholder="SELECT ID, p..${$wpdb-&gt;posts}..." />
-            <marker date="1456820163128" expanded="true" signature="80942:81036" placeholder="SELECT ID FR..${$wpdb-&gt;posts}..." />
-            <marker date="1456820163128" expanded="true" signature="81473:81586" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="81763:81877" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="82902:82980" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="84499:84604" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="85233:85332" placeholder="DELETE FROM ..." />
-            <marker date="1456820163128" expanded="true" signature="85354:85444" placeholder="UPDATE ${$wp..." />
-            <marker date="1456820163128" expanded="true" signature="85599:85725" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="95458:99881" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="95512:96039" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="96118:96199" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="96268:96393" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="96466:96578" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="96647:96738" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="96852:97008" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="97077:97109" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="97184:97308" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="97383:97538" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="97613:97737" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="97812:97967" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="98036:98128" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="98203:98297" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="98372:98415" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="98479:98719" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="98789:99052" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="99116:99328" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="99375:99854" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="99453:99494" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="99571:99612" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="99689:99730" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="99807:99848" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="101870:101888" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="101990:102760" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="102092:102743" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="104244:104356" placeholder="SELECT meta_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="104642:104756" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="105166:105279" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1456820163128" expanded="true" signature="112500:112802" placeholder="..." />
-            <marker date="1456820163128" expanded="true" signature="112542:112787" placeholder="{...}" />
-            <marker date="1456820163128" expanded="true" signature="112633:112777" placeholder="{...}" />
+            <element signature="e#7#264#0#PHP" expanded="true" />
+            <marker date="1456824540320" expanded="true" signature="4443:4521" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="23236:23274" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="23620:23658" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="24566:24604" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="43830:43947" placeholder="UPDATE ${{$w..." />
+            <marker date="1456824540320" expanded="true" signature="46381:46413" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="49517:49549" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="49874:49890" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="50556:50572" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="50938:50954" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="51335:51367" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="57337:57350" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="66913:66997" placeholder="DELETE FROM ..." />
+            <marker date="1456824540320" expanded="true" signature="76690:76831" placeholder="SELECT ID, p..${$wpdb-&gt;posts}..." />
+            <marker date="1456824540320" expanded="true" signature="80930:81024" placeholder="SELECT ID FR..${$wpdb-&gt;posts}..." />
+            <marker date="1456824540320" expanded="true" signature="81461:81574" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="81751:81865" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="82890:82968" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="84487:84592" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="85221:85320" placeholder="DELETE FROM ..." />
+            <marker date="1456824540320" expanded="true" signature="85342:85432" placeholder="UPDATE ${$wp..." />
+            <marker date="1456824540320" expanded="true" signature="85587:85713" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="95446:99869" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="95500:96027" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="96106:96187" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="96256:96381" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="96454:96566" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="96635:96726" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="96840:96996" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="97065:97097" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="97172:97296" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="97371:97526" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="97601:97725" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="97800:97955" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="98024:98116" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="98191:98285" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="98360:98403" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="98467:98707" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="98777:99040" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="99104:99316" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="99363:99842" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="99441:99482" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="99559:99600" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="99677:99718" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="99795:99836" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="101858:101876" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="101978:102748" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="102080:102731" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="104232:104344" placeholder="SELECT meta_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="104630:104744" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="105154:105267" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
+            <marker date="1456824540320" expanded="true" signature="112485:112787" placeholder="..." />
+            <marker date="1456824540320" expanded="true" signature="112527:112772" placeholder="{...}" />
+            <marker date="1456824540320" expanded="true" signature="112618:112762" placeholder="{...}" />
           </folding>
         </state>
       </provider>

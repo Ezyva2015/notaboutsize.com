@@ -1,0 +1,147 @@
+<?php
+// Manages the API requests and any other core functionality that gets used accross multiple classes.
+class OPCoreFunctions
+{
+	// Performs an API request to api.ontrapages.com or api.ontraport.com/1/. Returns the API response.
+	public static function apiRequest( $requestUrl, $appid, $key, $httpCodeOnly=false )
+	{
+		$session = curl_init( $requestUrl );
+		curl_setopt( $session, CURLOPT_HTTPHEADER, array("Api-Appid: $appid", "Api-Key: $key") );
+		curl_setopt( $session, CURLOPT_HEADER, false );
+
+		if ( $httpCodeOnly !== false )
+		{
+			curl_setopt( $session, CURLOPT_HEADER, true );
+			curl_setopt( $session, CURLOPT_NOBODY, true );
+		}
+
+		curl_setopt( $session, CURLOPT_RETURNTRANSFER, true );
+		curl_setopt( $session, CURLOPT_SSL_VERIFYPEER, false );
+		curl_setopt( $session, CURLOPT_SSL_VERIFYHOST, 0 );
+		$response = curl_exec( $session );
+
+		if ( $httpCodeOnly !== false )
+		{
+			$httpcode = curl_getinfo($session, CURLINFO_HTTP_CODE);
+			return $httpcode;
+		}
+
+		return $response;
+	}
+
+
+	// Get's the contents of the URL. Returns the HTML.
+	public static function getURLContent( $url )
+	{
+		$timeout = 5;
+		$session = curl_init();
+		curl_setopt($session, CURLOPT_URL, $url);
+		curl_setopt($session, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($session, CURLOPT_CONNECTTIMEOUT, $timeout);
+		$html = curl_exec($session);
+		curl_close($session);
+
+		return $html;
+	}
+
+
+	/**
+	 * Check db options to see if there are valid api creds. 
+	 * 
+	 * @param $returnType You can pass 'echo' or 'code' as the return type. If echo then it will echo the response message. If code it will just return the response code. If nothing then it will return the entire response.
+	 * @param $emptyObject If there is an empty object check it to see if it's an auth error. If so let the user know.
+	 * 
+	 * @return Echos a warning message if not and returns an error code.
+	 * 
+	 * Error Code 0 - All good in the hood
+	 * Error Code 1 - API Creds are wrong
+	 * Error Code 2 - Missing API Creds
+	 * Error Code 3 - No ONTRApages available
+	 */
+	public static function checkAPICreds( $returnType=false, $emptyObject=false )
+	{
+		$appid = get_option( 'opAppID' );
+		$validCreds = get_option( 'opValidCreds' );
+		
+		if ( $appid === false )
+		{
+			$code = 2;
+		}
+		else if ( $validCreds !== false && $validCreds == '0' )
+		{
+			$code = 1;
+		}
+		else if ( $validCreds !== false && $validCreds == '1' && $emptyObject !== false )
+		{
+			if ( $emptyObject == 'auth-error' )
+			{
+				$code = 1;
+			}
+			else
+			{
+				$code = 3;
+			}
+		}
+		else
+		{
+			$code = 0;
+		}
+
+		$response = self::buildResponse( $code );
+
+		if ( $returnType === 'echo' || $returnType === '' )
+		{
+			echo $response['message'];
+		}
+		else if ( $returnType === 'code' )
+		{
+			return $response['code'];
+		}
+		else
+		{
+			return $response;
+		}
+	}
+
+
+	/**
+	 * Takes the code that it gets passed and builds a response with the code and message
+	 * @param  integer $code A response code
+	 * 
+	 * @return array A complete response with a code and message
+	 */
+	public static function buildResponse( $code )
+	{
+		switch( $code )
+		{
+			case 0:
+				$message = 'Success';
+			break;
+
+			case 1:
+				$message = '<div class="op-error-message">It looks like your API credentials are incorrect. Your ONTRApages will not display properly until you fix this. Please <a href="edit.php?post_type=ontrapage&page=opsettings">click here</a> to remedy that & then try again.</div>';
+			break;
+
+			case 2:
+				$message = '<div id="message" class="error is-dismissible">
+					<p>ONTRApages Warning - It looks like you don\'t have any API credentials setup just yet. <a href="edit.php?post_type=ontrapage&page=opsettings">Click here</a> to remedy that & then try again.</p>
+					</div>';
+			break;
+
+			case 3:
+				$message = '<div class="op-error-message">Unfortunately it appears that you don\'t have any ONTRApages available. Create one by logging into your <a href="https://ontrapages.com" target="_blank">ONTRApages account</a> and then return when it has been saved!</div>';
+			break;
+
+			default:
+				$message = '';
+			break;
+		}
+
+		$response = array( 
+			'code' => $code,
+			'message' => $message 
+			);
+
+		return $response;
+	}
+}
