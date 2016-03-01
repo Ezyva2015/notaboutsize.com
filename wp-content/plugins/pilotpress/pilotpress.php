@@ -1621,7 +1621,7 @@ Copyright: 2013, Ontraport
 				if(is_array($api_result)) {
 
 					if(!username_exists($username) && $api_result["status"] != 0) {
-					
+
 						/* if their email is used (might have been a blog user before OAP perhaps), use alternate name */
 						if(email_exists($api_result["email"])) {
 							$email = $api_result["email_alt"];
@@ -1650,7 +1650,7 @@ Copyright: 2013, Ontraport
 						}
 
 					} else {
-						
+
 						/* this user does exist, so log us in */
 						$user = get_userdatabylogin($username);
 
@@ -1727,7 +1727,7 @@ Copyright: 2013, Ontraport
 							self::redirect($redirect_to);
 							die;
 						}
-	
+
 						/* this person is an affiliate, put them somewhere nice */
 						if(isset($api_result["program_id"])) {							
 							$aff_plr = $this->get_setting("pilotpress_affiliate_plr");
@@ -3250,7 +3250,7 @@ Copyright: 2013, Ontraport
 			}
 			$compare_url = str_replace("https://", "", $url);
 			$compare_url = str_replace("http://", "", $compare_url);
-			
+
 			if($current_url != $compare_url) {
 				return wp_redirect($url);
 			}
