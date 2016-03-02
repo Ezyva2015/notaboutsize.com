@@ -908,9 +908,9 @@ Copyright: 2013, Ontraport
 				
 				$customer = $this->get_setting("pilotpress_customer_plr");
 				if(!empty($customer) && $customer != "-1") {
-					self::redirect(get_permalink($customer));
+					 self::redirect(get_permalink($customer));
 				} else {
-					self::redirect($this->homepage_url);
+					 self::redirect($this->homepage_url);
 				}
 				die;
 			}
@@ -2027,7 +2027,10 @@ Copyright: 2013, Ontraport
 			}
 
 		}
-		
+
+
+
+		// This function works for redirect
 		/* the big nasty content hiding function... tread carefully */
         function post_process ()
         {
@@ -2053,7 +2056,7 @@ Copyright: 2013, Ontraport
                 {
                     if ($redirect == "-1")
                     {
-                        return self::redirect(site_url());
+                         //return self::redirect(site_url());
                     }
                     else if ($redirect == "-2")
                     {
@@ -2062,7 +2065,12 @@ Copyright: 2013, Ontraport
                             $_SESSION["redirect_to"] = $id;
                         }
                     }
-                    return self::redirect(get_permalink($redirect));
+
+					/********************************************************************
+					 * This is disabled due to redirection to memner-login-1 instead of topic-1
+					 * To enable redirect to member-login-1 if users has prevelage of 1 please un comment below
+					 ********************************************************************/
+                     //return self::redirect(get_permalink($redirect));
                 }
                 else
                 {
@@ -2341,14 +2349,14 @@ Copyright: 2013, Ontraport
 					case "customer_center":
 						$page_id = $wpdb->get_var("SELECT post_id FROM $wpdb->postmeta WHERE meta_key = '_pilotpress_system_page' AND meta_value = 'customer_center'", ARRAY_A);
 						if($page_id) {
-							self::redirect(get_permalink($page_id));
+							 self::redirect(get_permalink($page_id));
 							die;
 						}
 					break;
 					case "affiliate_center":
 						$page_id = $wpdb->get_var("SELECT post_id FROM $wpdb->postmeta WHERE meta_key = '_pilotpress_system_page' AND meta_value = 'affiliate_center'", ARRAY_A);
 						if($page_id) {
-							self::redirect(get_permalink($page_id));
+							 self::redirect(get_permalink($page_id));
 							die;
 						}
 					break;
