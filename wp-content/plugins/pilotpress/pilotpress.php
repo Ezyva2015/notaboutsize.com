@@ -2071,7 +2071,14 @@ Copyright: 2013, Ontraport
 					 * To enable redirect to member-login-1 if users has prevelage of 1 please un comment below
 					 ********************************************************************/
                      //return self::redirect(get_permalink($redirect));
-                }
+
+					$current_user = wp_get_current_user();
+					if ( 0 == $current_user->ID ) {
+						self::redirect('member-login-2');
+					} else {
+
+					}
+				}
                 else
                 {
                     return self::redirect($this->homepage_url);
